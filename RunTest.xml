@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="API_Testing">
+    <test name="Authentication">
+            <classes>
+                <class name="shop.Authentication.Login"></class>
+                <class name="shop.Authentication.Session"></class>
+            </classes>
+    </test>
+    <test name="Categories">
+        <classes>
+            <class name="shop.Categories.getSingleCategory"></class>
+            <class name="shop.Categories.getAllCategories"></class>
+            <class name="shop.Categories.createCategory"></class>
+            <class name="shop.Categories.updateCategory"></class>
+            <class name="shop.Categories.deleteCategory"></class>
+        </classes>
+    </test>
+    <test name="User">
+        <classes>
+            <class name="shop.User.GetSingleUser"></class>
+            <class name="shop.User.GetAllUsers"></class>
+            <class name="shop.User.CreateUser"></class>
+            <class name="shop.User.UpdateUser"></class>
+            <class name="shop.User.DeleteUser"></class>
+        </classes>
+    </test>
+    <test name="Product">
+        <classes>
+            <class name="shop.Product.GetSingleProduct"></class>
+            <class name="shop.Product.GetAllProduct"></class>
+            <class name="shop.Product.CreateProduct"></class>
+            <class name="shop.Product.UpdateProduct"></class>
+            <class name="shop.Product.DeleteProduct"></class>
+        </classes>
+    </test>
+    <test name="User">
+        <classes>
+            <class name="shop.User.GetSingleUser"></class>
+            <class name="shop.User.GetAllUsers"></class>
+            <class name="shop.User.CreateUser"></class>
+            <class name="shop.User.UpdateUser"></class>
+            <class name="shop.User.DeleteUser"></class>
+        </classes>
+    </test>
+</suite>
